@@ -1,0 +1,18 @@
+html
+	head
+		link(rel='stylesheet' href='/styles/style2.css')
+		link(rel="preconnect" href="https://fonts.googleapis.com")
+		link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+		link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet")
+		title Register
+body
+	a(class='button' href='login') Login
+	div(class='container')
+		p(class='header') Register
+		form(class='form' action = 'register' method = 'POST')
+			input(class='un' type = 'text' name = 'username' placeholder = 'Username' required)
+			br
+			input(class='pass' type = 'password' name = 'password' placeholder = 'Password' required)
+			br
+			input(class = 'submit' type = 'submit')
+			

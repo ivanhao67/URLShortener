@@ -1,0 +1,17 @@
+html
+	head
+		link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+		link(rel='stylesheet' href='/styles/style3.css')
+		title URL Shortener
+body
+	div(class='container')
+		h1(class='header') Welcome #{name}
+	div(class='form')
+		form(action = 'url' method = 'POST')
+			input(class='text' type = 'text' name = 'url' placeholder = 'Enter Url here' required)
+			button(class = 'button1' type = 'submit')
+				i(class='material-icons' id='#icon') search
+	br
+	a(class='button2' href='links') View Links
+			

@@ -1,0 +1,24 @@
+html
+  head
+    link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+    link(rel='stylesheet' href='/styles/style4.css')
+    title Links
+body
+  div(class='container')
+    h1(class='header') Your Links
+  div(class='links')
+    each short, long in links
+      form(action = 'copy' method = 'POST')
+        div(class='searchbox')
+          label(class='text') #{long}
+          br
+          div(class='box')
+            input(class='url' type = 'text' name = 'url' value=`${short}`)
+            button(class='button' type = 'submit')
+              i(class='material-icons' id='#icon') content_copy
+              span(class='tooltip') Copy to clipboard
+
+
+
+			
