@@ -14,3 +14,7 @@ How to use:
 
 Screenshots: 
 ![alt text](https://github.com/ivanhao67/URLShortener/blob/main/URLShortener/screenshots/Homepage.JPG)
+![alt text](https://github.com/ivanhao67/URLShortener/blob/main/URLShortener/screenshots/landing.JPG)
+![alt text](https://github.com/ivanhao67/URLShortener/blob/main/URLShortener/screenshots/login.JPG)
+![alt text](https://github.com/ivanhao67/URLShortener/blob/main/URLShortener/screenshots/register.JPG)
+![alt text](https://github.com/ivanhao67/URLShortener/blob/main/URLShortener/screenshots/URLs.JPG)
